@@ -1,0 +1,25 @@
+809  [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\User\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml"
+1412 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] 1757391566
+1413 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -282140603
+1414 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+1422 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+1423 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+1423 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+1428 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.stopTest(org.testng.ITestResult)[pri:0, instance:null] -1885390546
+1429 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.stopTest()[pri:0, instance:null] -1885390546
+1429 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1969228990
+1430 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+1431 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+1432 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+1432 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+1443 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE LoginTest.loginUserPositiveTest()[pri:0, instance:com.telran.contact.tests.LoginTest@79207381] 614609222
+1444 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+1444 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+1444 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+1444 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+1457 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\User\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
+
+9390 [main] INFO  com.telran.contact.tests.TestBase - test start loginUserPositiveTest with data []
+10963 [main] INFO  com.telran.contact.tests.TestBase - test stop
+10965 [main] INFO  com.telran.contact.tests.TestBase - PASSED: test method loginUserPositiveTest

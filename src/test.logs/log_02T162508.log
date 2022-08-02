@@ -1,0 +1,23 @@
+756  [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\User\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml"
+1345 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] 1757391566
+1346 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -282140603
+1346 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+1355 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+1355 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+1356 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+1361 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.stopTest(org.testng.ITestResult)[pri:0, instance:null] -1885390546
+1361 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1969228990
+1361 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+1362 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+1363 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+1363 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+1372 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE LoginTest.loginUserNegativeTest()[pri:0, instance:com.telran.contact.tests.LoginTest@29d80d2b] 607080116
+1372 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+1372 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+1373 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+1373 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+1384 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\User\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
+
+7946 [main] INFO  com.telran.contact.tests.TestBase - test start loginUserNegativeTest with data []
+28999 [main] ERROR com.telran.contact.tests.TestBase - FAILED: Test method loginUserNegativeTest Screenschot: 

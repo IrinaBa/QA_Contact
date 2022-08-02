@@ -1,0 +1,23 @@
+707  [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\User\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml"
+1326 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] 1757391566
+1326 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -282140603
+1327 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+1335 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+1335 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+1336 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+1340 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.stopTest(org.testng.ITestResult)[pri:0, instance:null] -1885390546
+1341 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1969228990
+1341 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+1342 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+1342 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+1343 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+1352 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE LoginTest.loginUserPositiveTest()[pri:0, instance:com.telran.contact.tests.LoginTest@387a8303] -470007608
+1353 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+1353 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+1353 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+1353 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+1365 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\User\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
+
+7846 [main] INFO  com.telran.contact.tests.TestBase - test start loginUserPositiveTest with data []
+9239 [main] ERROR com.telran.contact.tests.TestBase - FAILED: Test method loginUserPositiveTest Screenschot: 
