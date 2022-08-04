@@ -24,7 +24,7 @@ public class AddContactTests extends TestBase {
     @Test
     public void addContactPositiveTest() {
         app.getContact().addContact();
-        Assert.assertTrue(app.getContact().isContactCreated("Karl"));
+        Assert.assertTrue(app.getContact().isContactCreated("Irina"));
     }
 
     @Test(dataProvider = "addNewContact", dataProviderClass = DataProviders.class, enabled = false)

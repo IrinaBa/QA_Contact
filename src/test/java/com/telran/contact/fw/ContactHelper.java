@@ -33,7 +33,7 @@ public class ContactHelper extends HelperBase {
                 .setMail("Karl" + i + "@gmail.com")
                 .setAdress("Berlin")
                 .setDescription("Karl - krasavchik"));
-        clickWithAction(By.cssSelector(".add_form__2rsm2 button"));
+
     }
 
     public void fillContactForm(Contact contacts) {
