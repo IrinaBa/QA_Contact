@@ -6,6 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+
 public class LoginTest extends TestBase {
 
     @BeforeMethod
@@ -21,14 +22,17 @@ public class LoginTest extends TestBase {
         //click on the link LOGIN
         app.getUser().login();
         //assert the button Sign out display}
-        Assert.assertTrue(app.getHeader().isSignOutButtonPresent());
+        //Assert.assertTrue(app.getHeader().isSignOutButtonPresent());
+
+
     }
 
     @Test
     public void loginUserNegativeTest() {
-        app.getUser().click(By.xpath("//a[contains(.,'LOGIN')]"));
-        app.getUser().fillLoginRegistrationForm(new User().setEmail("jesse+982@mail.ru").setPassword("jesse"));
-        Assert.assertTrue(app.getUser().isAlertPresent());
+       app.getUser().click(By.xpath("//a[contains(.,'LOGIN')]"));
+        app.getUser().fillLoginRegistrationForm(new User().setEmail("jesse+6@mail.ru").setPassword("asdf"));
+        app.getUser().click(By.xpath("//button[contains(.,'Login')]"));
+       Assert.assertTrue(app.getUser().isAlertPresent());
         Assert.assertTrue(app.getUser().isErrorPresent());
     }
 }

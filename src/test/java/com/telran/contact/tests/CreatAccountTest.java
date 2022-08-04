@@ -18,7 +18,7 @@ public class CreatAccountTest extends TestBase {
 
     }
 
-    @Test
+    @Test(enabled = false)
     public void registrationPositiveTest() {
         //click on the link LOGIN
         app.getUser().registration();

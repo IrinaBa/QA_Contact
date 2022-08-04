@@ -24,25 +24,21 @@ public class TestBase {
     @AfterMethod(enabled = true)
     public void tearDown() {
         app.stop();
-
-
     }
+
     @BeforeMethod
     public void startTest(Method m, Object[] p) {
-        logger.info("test start " + m.getName() + " with data " + Arrays.asList(p));
-
+        logger.info("Test start " + m.getName() + " with data: " + Arrays.asList(p));
     }
-
 
     @AfterMethod
     public void stopTest(ITestResult result) {
         if (result.isSuccess()) {
-            logger.info("PASSED: test method " + result.getMethod().getMethodName());
-
+            logger.info("PASSED: test method " + result.getMethod().getMethodName() );
         } else {
-            logger.error("FAILED: Test method " + result.getMethod().getMethodName() + " " + "Screenschot: ");
-
+            logger.error("FAILED: Test method " + result.getMethod().getMethodName() + " " + "Screenshot: " + app.getUser().takeScreenshot());
         }
     }
+
 }
 

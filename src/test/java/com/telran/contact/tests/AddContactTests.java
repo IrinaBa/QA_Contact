@@ -1,6 +1,7 @@
 package com.telran.contact.tests;
 
 import com.telran.contact.models.Contact;
+import com.telran.contact.tests.TestBase;
 import com.telran.contact.utils.DataProviders;
 import org.openqa.selenium.By;
 import org.testng.Assert;
@@ -8,11 +9,6 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
-import java.io.*;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
 
 public class AddContactTests extends TestBase {
 
@@ -29,9 +25,7 @@ public class AddContactTests extends TestBase {
     public void addContactPositiveTest() {
         app.getContact().addContact();
         Assert.assertTrue(app.getContact().isContactCreated("Karl"));
-
     }
-
 
     @Test(dataProvider = "addNewContact", dataProviderClass = DataProviders.class, enabled = false)
     public void addContactPositiveTestFromDataProvider(String name, String lName, String telephone, String mail, String adress, String descr) {
@@ -46,13 +40,13 @@ public class AddContactTests extends TestBase {
 
     }
 
-    @Test(dataProvider = "addNewContactFromCSV", dataProviderClass = DataProviders.class, enabled = false)
+    @Test(dataProvider = "addNewContactFromCSV", dataProviderClass = DataProviders.class,enabled = false)
     public void addContactPositiveTestFromCSV(Contact contact) {
         app.getContact().clickOnAddLink();
         app.getContact().fillContactForm(contact);
         app.getContact().clickOnSaveButtonWithAction();
-
     }
+
     @AfterMethod()
     public void postCondition() {
         app.getContact().removeContact();

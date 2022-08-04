@@ -24,7 +24,7 @@ public class ContactHelper extends HelperBase {
     }
 
     public void addContact() {
-        int i = (int)(System.currentTimeMillis())/1000;
+        int i = (int) ((System.currentTimeMillis()) / 1000) % 3600;
         click(By.xpath("//a[contains(text(),'ADD')]"));
         fillContactForm(new Contact()
                 .setName("Irina")
@@ -43,6 +43,8 @@ public class ContactHelper extends HelperBase {
         type(By.cssSelector("input:nth-child(4)"), contacts.getMail());
         type(By.cssSelector("input:nth-child(5)"), contacts.getAdress());
         type(By.cssSelector("input:nth-child(6)"), contacts.getDescription());
+        clickWithAction(By.cssSelector(".add_form__2rsm2 button"));
+
     }
 
     public int sizeOfContacts() {
