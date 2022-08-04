@@ -22,7 +22,7 @@ public class LoginTest extends TestBase {
         //click on the link LOGIN
         app.getUser().login();
         //assert the button Sign out display}
-        //Assert.assertTrue(app.getHeader().isSignOutButtonPresent());
+        Assert.assertTrue(app.getHeader().isSignOutButtonPresent());
 
 
     }
