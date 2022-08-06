@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.contact.tests.LoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-03T15:04:50" hostname="WIN-J9DN6SMD2A2" time="0.928">
+  <properties/>
+  <testcase name="loginUserPositiveTest" classname="com.telran.contact.tests.LoginTest" time="0.928"/>
+  <system-out><![CDATA[17:04:50.092 [Test worker] INFO  com.telran.contact.tests.TestBase - test start loginUserPositiveTest with data []
+17:04:51.101 [Test worker] INFO  com.telran.contact.tests.TestBase - PASSED: test method loginUserPositiveTest
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 26243
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+авг. 03, 2022 5:04:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
