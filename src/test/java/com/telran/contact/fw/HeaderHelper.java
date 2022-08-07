@@ -20,6 +20,7 @@ public class HeaderHelper extends HelperBase {
     }
 
     public boolean isSignOutButtonPresent() {
+
         return isElementPresent(By.xpath("//button[contains(.,'Sign Out')]"));
     }
 }
