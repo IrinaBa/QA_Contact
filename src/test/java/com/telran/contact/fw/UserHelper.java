@@ -41,6 +41,7 @@ public class UserHelper extends HelperBase {
     }
 
     public boolean isErrorPresent() {
+
         return isElementPresent(By.xpath("//div[.='Login Failed with code 400']"));
     }
 }
