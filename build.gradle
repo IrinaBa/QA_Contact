@@ -39,7 +39,9 @@ task testSmoky(type: Test) {
         systemProperty 'browser', "${browser}"
 
     }
-}task testHeader(type: Test) {
+}
+
+task testHeader(type: Test) {
     useTestNG() {
         suites 'src/test/resources/testngHeader.xml'
     }
